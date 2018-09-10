@@ -62,5 +62,6 @@
   },
   "emmet.includeLanguages": {
     "twig": "html"
-  }
+  },
+  "simple-phpcbf.executablePath": "~/.config/composer/vendor/bin/phpcbf"
 }
