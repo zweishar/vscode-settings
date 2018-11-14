@@ -1,4 +1,31 @@
 {
     "workbench.colorTheme": "Darcula",
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "gitlens.historyExplorer.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.blame.heatmap.enabled": false,
+    "gitlens.hovers.annotations.enabled": false,
+    "gitlens.mode.statusBar.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "gitlens.blame.highlight.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+    "editor.rulers": [
+        80
+    ],
+    "auto-close-tag.activationOnLanguage": [
+        "*"
+    ],
+    "auto-rename-tag.activationOnLanguage": [
+        "*"
+    ],
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
 }
+

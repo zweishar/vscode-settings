@@ -65,8 +65,5 @@
     "twig": "html"
   },
   "simple-phpcbf.executablePath": "~/.config/composer/vendor/bin/phpcbf",
-  "editor.rulers": [80],
-  "auto-close-tag.activationOnLanguage": ["*"],
 }
-
 
