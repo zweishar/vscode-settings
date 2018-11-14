@@ -17,7 +17,8 @@
     "*.theme": "php",
     "*.tpl.php": "php",
     "*.test": "php",
-    "*.php": "php"
+    "*.php": "php",
+    "*.drush.inc": "php",
   },
   "files.trimTrailingWhitespace": true,
   "html.format.enable": true,
@@ -63,5 +64,9 @@
   "emmet.includeLanguages": {
     "twig": "html"
   },
-  "simple-phpcbf.executablePath": "~/.config/composer/vendor/bin/phpcbf"
+  "simple-phpcbf.executablePath": "~/.config/composer/vendor/bin/phpcbf",
+  "editor.rulers": [80],
+  "auto-close-tag.activationOnLanguage": ["*"],
 }
+
+
