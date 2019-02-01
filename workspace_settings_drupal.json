@@ -4,22 +4,11 @@
   "editor.tabSize": 2,
   "editor.autoIndent": true,
   "editor.insertSpaces": true,
-  "editor.formatOnPaste": true,
   "editor.formatOnSave": false,
   "editor.renderWhitespace": "boundary",
   "editor.wordWrapColumn": 80,
   "editor.wordWrap": "off",
   "editor.detectIndentation": true,
-  "files.associations": {
-    "*.inc": "php",
-    "*.module": "php",
-    "*.install": "php",
-    "*.theme": "php",
-    "*.tpl.php": "php",
-    "*.test": "php",
-    "*.php": "php",
-    "*.drush.inc": "php",
-  },
   "files.trimTrailingWhitespace": true,
   "html.format.enable": true,
   "html.format.wrapLineLength": 80,
@@ -30,40 +19,8 @@
   "emptyIndent.highlightIndent": false,
   "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
 
-  /* Crane php intellisense */
-  "crane.showStatusBarBugReportLink": false,
-
-  /* Ignore some D8 paths */
-  "crane.ignoredPaths": [
-    "sites/default/files/*",
-    "vendor/*",
-    "core/themes/*",
-    "core/tests/*",
-    "core/scripts/*",
-    "core/profiles/*",
-    "core/misc/*",
-    "core/assets/vendor/*",
-    "themes/*",
-    "sites/*"
-  ],
   "phpcs.enable": true,
   "phpcs.extensions": "php,module,inc,install,test,profile,theme",
-  "phpcs.standard": "~/.config/composer/vendor/drupal/coder/coder_sniffer/Drupal",
-  "php.suggest.basic": false,
-  "php.validate.enable": true,
-  "php.validate.executablePath": "/usr/bin/php",
-  "php.validate.run": "onType",
-  "php.executablePath": "/usr/bin/php",
-  "php-docblocker.gap": true,
-  "php-docblocker.useShortNames": true,
-  "composer.enabled": true,
-  "composer.executablePath": "/usr/local/bin/composer",
-  "files.associations": {
-    "*.html": "twig"
-  },
-  "emmet.includeLanguages": {
-    "twig": "html"
-  },
-  "simple-phpcbf.executablePath": "~/.config/composer/vendor/bin/phpcbf",
+  "phpcs.standard": "/home/zweishar/.config/composer/vendor/drupal/coder/coder_sniffer/Drupal",
 }
 

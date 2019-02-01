@@ -1,15 +1,6 @@
 {
-    "workbench.colorTheme": "Darcula",
+    "workbench.colorTheme": "Material Theme High Contrast",
     "editor.renderWhitespace": "all",
-    "gitlens.historyExplorer.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.hovers.currentLine.over": "line",
-    "gitlens.blame.heatmap.enabled": false,
-    "gitlens.hovers.annotations.enabled": false,
-    "gitlens.mode.statusBar.enabled": false,
-    "gitlens.statusBar.enabled": false,
-    "gitlens.blame.highlight.enabled": false,
-    "gitlens.currentLine.enabled": false,
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
@@ -27,5 +18,32 @@
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.rendererType": "dom",
+    "explorer.autoReveal": false,
+    "editor.wordWrap": "wordWrapColumn",
+    "files.exclude": {
+        "*.sql": true,
+        "*.sql.gz": true,
+        "**/node_modules": true,
+        "**/vendor": true
+    },
+    "editor.dragAndDrop": false,
+    "editor.hover.delay": 200,
+    "search.useGlobalIgnoreFiles": true,
+    "breadcrumbs.enabled": true,
+    "workbench.iconTheme": "eq-material-theme-icons",
+    // Set the default
+    "editor.formatOnSave": false,
+    // "terminal.integrated.fontFamily": "Fira Code",
+    "extensions.ignoreRecommendations": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "files.watcherExclude": {
+        "**/.git/*/**": true,
+        "**/node_modules/*/**": true,
+        "**/vendor/*/**": true
+    }
 }
 
